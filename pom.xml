@@ -18,7 +18,7 @@
 
     <beam.version>2.56.0</beam.version>
     <jackson.version>2.10.4</jackson.version>
-    <junit-jupiter.version>5.1.0</junit-jupiter.version>
+    <junit-jupiter.version>5.8.0</junit-jupiter.version>
     <version.jopt.simple>5.0.4</version.jopt.simple>
     <version.gcp.bigquery>1.135.4</version.gcp.bigquery>
   </properties>
@@ -368,7 +368,7 @@
                 </filter>
               </filters>
               <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                   <mainClass>${main.class}</mainClass>
                 </transformer>
